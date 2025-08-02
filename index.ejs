@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishta's Galaxy Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #1e003e, #000);
+      color: #e0e0ff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 5rem 1rem 2rem;
+      background: radial-gradient(circle at center, #5f3dc4 0%, #2a0d61 100%);
+      animation: fadeIn 2s ease-in;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #d6bfff;
+      text-shadow: 0 0 8px #a678ff, 0 0 20px #9b59b6;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cdb4db;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      text-align: center;
+      color: #bb86fc;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #444;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 1rem 0;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .projects .swiper {
+      width: 100%;
+      padding: 2rem 0;
+    }
+
+    .swiper-slide {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 5px;
+      background: #222;
+      color: #fff;
+    }
+
+    .contact-form button {
+      background: #00ffff;
+      color: #000;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .resume-btn {
+      display: block;
+      margin: 2rem auto;
+      text-align: center;
+      background: linear-gradient(135deg, #7b2ff7, #f107a3);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s ease;
+    }
+
+    .resume-btn:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #111;
+      color: #aaa;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>✨ Nishta ✨</h1>
+    <p>Full Stack Developer | Passionate about data and clean code</p>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>🔮 About Me</h2>
+    <div class="card">
+      <p>Hi, I’m Nishta! I’m a full-stack developer with a strong interest in backend development and data analytics. I specialize in building real-world software solutions using technologies like React, Node.js, Python, Django, and SQL. I enjoy designing scalable systems, automating data workflows, and turning complex problems into clean, maintainable code.
+
+</p>
+    </div>
+  </section>
+
+  <section data-aos="fade-up">
+  <h2>🚀 Projects</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <div class="card" style="flex: 1 1 300px;">
+      <h3>🌧️ IMD Rainfall Data Processor</h3>
+      <p>PyQt5-based app to automate rainfall reports using Pandas and Excel for IMD.</p>
+    </div>
+    <div class="card" style="flex: 1 1 300px;">
+      <h3>🧠 TripEase – SIH 2023</h3>
+      <p>AI-based travel planner with collaborative itinerary builder and expense splitting.</p>
+    </div>
+    <div class="card" style="flex: 1 1 300px;">
+      <h3>🎰 Slot Machine Game</h3>
+      <p>Fun casino-style mini game using JavaScript, CSS animations, and basic math logic.</p>
+    </div>
+    <div class="card" style="flex: 1 1 300px;">
+      <h3>⏰ Alarm Clock</h3>
+      <p>Vanilla JS digital alarm clock with snooze and timepicker features.</p>
+    </div>
+    <div class="card" style="flex: 1 1 300px;">
+      <h3>🔐 Random Password Generator</h3>
+      <p>Simple tool to generate secure passwords using HTML/CSS/JavaScript and python.</p>
+    </div>
+    <div class="card" style="flex: 1 1 300px;">
+      <h3>🌐 Portfolio Website</h3>
+      <p>This very portfolio website – built with Express, EJS, animations, and dark galaxy theming!</p>
+    </div>
+  </div>
+</section>
+ 
+<section data-aos="fade-up">
+  <h2>💼 Work Experience</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    
+    <div class="card" style="flex: 1 1 450px;">
+      <h3>🔧 Intern – Skilancer Solar</h3>
+      <p><strong>May 2024 – Jul 2024</strong></p>
+      <p>At Skilancer Solar, I worked as a Backend Intern on two major IoT-driven applications. I built robust backend services using both Node.js and Flask, tailored for real-time monitoring of solar-powered systems. One project focused on a solar inverter monitoring app, while the other supported an electric cycle product with features like geo-tracking, map navigation, and device health dashboards. I integrated core modules with AWS IoT Core, Lambda, and RDS, ensuring secure, scalable data flow. Additionally, I re-engineered critical calculations to run seamlessly in the backend, improving system accuracy and responsiveness. This experience sharpened my skills in API development, cloud infrastructure, and full-stack collaboration in a production environment.</p>
+    </div>
+
+    <div class="card" style="flex: 1 1 450px;">
+      <h3>🌦️ Trainee – India Meteorological Department (IMD)</h3>
+      <p><strong>Mar 2024 – Apr 2024</strong></p>
+      <p>During my training at the India Meteorological Department, I worked extensively on rainfall data analysis using Python libraries like Pandas and NumPy. I developed automated Excel workflows to process and visualize large-scale meteorological datasets. This experience strengthened my skills in data-driven backend automation and gave me insights into how technology supports climate forecasting at a national level. <p>
+</div>
+
+  </div>
+</section>
+
+
+ <a class="resume-btn" href="/Nishta_Resume.pdf" download>📄 Download My Resume</a>
+
+
+  <section data-aos="fade-up">
+    <h2>📬 Contact</h2>
+    <div class="card">
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Spell ✨</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Nishta | Made with stardust ✨
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    AOS.init();
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
